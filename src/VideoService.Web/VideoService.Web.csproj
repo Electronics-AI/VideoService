@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VideoService.API\VideoService.API.csproj" />
+    <ProjectReference Include="..\VideoService.Core\VideoService.Core.csproj" />
+    <ProjectReference Include="..\VideoService.DataAccess\VideoService.DataAccess.csproj" />
+    <ProjectReference Include="..\VideoService.Library\VideoService.Library.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{59E66D1C-3A36-4FEA-8D3D-6A14B3606A6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoService.API", "src\VideoService.API\VideoService.API.csproj", "{1DE1FEAA-B7FE-4FE8-A8C5-A51CE018C776}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoService.Core", "src\VideoService.Core\VideoService.Core.csproj", "{8E0790B7-05A9-40B4-BFB1-2C7A4A2EFDF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoService.Web", "src\VideoService.Web\VideoService.Web.csproj", "{6FD7B6FD-F151-417E-B030-192EE80DEDCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{46462F45-B138-4E9D-B83A-E43164851F70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoService.UnitTests", "tests\VideoService.UnitTests\VideoService.UnitTests.csproj", "{FA12E2E3-FD18-4420-A391-A87BAA8164BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoService.Infrastructure", "src\VideoService.Infrastructure\VideoService.Infrastructure.csproj", "{4CE04986-9C23-49DC-B85A-312B3E9291FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DE1FEAA-B7FE-4FE8-A8C5-A51CE018C776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE1FEAA-B7FE-4FE8-A8C5-A51CE018C776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE1FEAA-B7FE-4FE8-A8C5-A51CE018C776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE1FEAA-B7FE-4FE8-A8C5-A51CE018C776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E0790B7-05A9-40B4-BFB1-2C7A4A2EFDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E0790B7-05A9-40B4-BFB1-2C7A4A2EFDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E0790B7-05A9-40B4-BFB1-2C7A4A2EFDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E0790B7-05A9-40B4-BFB1-2C7A4A2EFDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD7B6FD-F151-417E-B030-192EE80DEDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD7B6FD-F151-417E-B030-192EE80DEDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD7B6FD-F151-417E-B030-192EE80DEDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD7B6FD-F151-417E-B030-192EE80DEDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA12E2E3-FD18-4420-A391-A87BAA8164BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA12E2E3-FD18-4420-A391-A87BAA8164BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA12E2E3-FD18-4420-A391-A87BAA8164BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA12E2E3-FD18-4420-A391-A87BAA8164BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE04986-9C23-49DC-B85A-312B3E9291FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE04986-9C23-49DC-B85A-312B3E9291FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE04986-9C23-49DC-B85A-312B3E9291FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE04986-9C23-49DC-B85A-312B3E9291FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DE1FEAA-B7FE-4FE8-A8C5-A51CE018C776} = {59E66D1C-3A36-4FEA-8D3D-6A14B3606A6C}
+		{8E0790B7-05A9-40B4-BFB1-2C7A4A2EFDF7} = {59E66D1C-3A36-4FEA-8D3D-6A14B3606A6C}
+		{6FD7B6FD-F151-417E-B030-192EE80DEDCB} = {59E66D1C-3A36-4FEA-8D3D-6A14B3606A6C}
+		{FA12E2E3-FD18-4420-A391-A87BAA8164BD} = {46462F45-B138-4E9D-B83A-E43164851F70}
+		{4CE04986-9C23-49DC-B85A-312B3E9291FA} = {59E66D1C-3A36-4FEA-8D3D-6A14B3606A6C}
+	EndGlobalSection
+EndGlobal
